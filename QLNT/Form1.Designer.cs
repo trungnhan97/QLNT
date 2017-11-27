@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.labelX1 = new DevComponents.DotNetBar.LabelX();
             this.SuspendLayout();
             // 
             // label1
@@ -40,11 +41,20 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "QUẢN LÝ CỬA HÀNG BÁN NỘI THẤT";
             // 
+            // labelX1
+            // 
+            this.labelX1.Location = new System.Drawing.Point(103, 96);
+            this.labelX1.Name = "labelX1";
+            this.labelX1.Size = new System.Drawing.Size(75, 23);
+            this.labelX1.TabIndex = 1;
+            this.labelX1.Text = "labelX1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(681, 261);
+            this.Controls.Add(this.labelX1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -56,6 +66,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private DevComponents.DotNetBar.LabelX labelX1;
     }
 }
 
